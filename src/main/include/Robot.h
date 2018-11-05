@@ -43,8 +43,8 @@ class Robot : public frc::SampleRobot {
   //frc::Spark m_rightMotor{2};  deleted by del
 
   // motorcontrollers with CAN ID 1,2
-  ctre::phoenix::motorcontrol::can::WPI_TalonSRX m_leftMotor{0};  // added by del
-  ctre::phoenix::motorcontrol::can::WPI_TalonSRX m_rightMotor{1}; // added by del
+  ctre::phoenix::motorcontrol::can::WPI_TalonSRX m_leftMotor{1};  // added by del
+  ctre::phoenix::motorcontrol::can::WPI_TalonSRX m_rightMotor{2}; // added by del
 
   frc::DifferentialDrive m_robotDrive{m_leftMotor, m_rightMotor};
 
